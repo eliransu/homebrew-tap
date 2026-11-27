@@ -4,30 +4,30 @@
 class Enterplace < Formula
   desc "Open source AI gateway built for governance"
   homepage "https://enterplace.dev"
-  version "0.3.0"
+  version "0.4.0"
   # The binary is the single Enterplace build: Apache-2.0 crates plus enterprise/ under its own license, which stays off
   # without a license key. Both license files are in the tarball.
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/eliransu/enterplace/releases/download/v0.3.0/enterplace-0.3.0-a97b6c98b4e2-aarch64-apple-darwin.tar.gz"
-      sha256 "d0f5851dd751013b03d7be53e8155e44abf6c5b5448614e902982ecc4ded0773"
+      url "https://github.com/eliransu/enterplace/releases/download/v0.4.0/enterplace-0.4.0-49c09c70f033-aarch64-apple-darwin.tar.gz"
+      sha256 "6a7a7dad8ec98282085f467096be0757a7cef7c3e2cea3dae3b3f8adec31d5d6"
     end
     on_intel do
-      url "https://github.com/eliransu/enterplace/releases/download/v0.3.0/enterplace-0.3.0-a97b6c98b4e2-x86_64-apple-darwin.tar.gz"
-      sha256 "5a8ae1dedaa01e85c35045142c5eb45f4dbea60fa21fb6e364bbf552e01fdf78"
+      url "https://github.com/eliransu/enterplace/releases/download/v0.4.0/enterplace-0.4.0-49c09c70f033-x86_64-apple-darwin.tar.gz"
+      sha256 "ed153f758ff50da98c0fd777b56aa8cebb9ca6e721f5131cf352093af85f75ff"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/eliransu/enterplace/releases/download/v0.3.0/enterplace-0.3.0-a97b6c98b4e2-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "4c6199fd569ab6d9a870700c0befc91ae827b2e4d3ec256a729f518795dcfdf4"
+      url "https://github.com/eliransu/enterplace/releases/download/v0.4.0/enterplace-0.4.0-49c09c70f033-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "4c00fc8ef90c557b028be07f6839153e45559d12ee565313e4552d0952897823"
     end
     on_intel do
-      url "https://github.com/eliransu/enterplace/releases/download/v0.3.0/enterplace-0.3.0-a97b6c98b4e2-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "715082b1bdbf9a9dc43b8642b2fa25f2b33c29cfe4c413f13d71d8715ba9eb1a"
+      url "https://github.com/eliransu/enterplace/releases/download/v0.4.0/enterplace-0.4.0-49c09c70f033-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "175be339b47d98cb30be7a9dc724adb9e1b64d8ea0ba4950ec92428a473c9ab8"
     end
   end
 
